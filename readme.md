@@ -1,5 +1,5 @@
 ## Wikimedia Test
-A form for accepting details from donors
+An application to collect and store information from prospective donors to the WikiMedia Foundation.
 
 ### Tech Stack
 - Tailwindcss 
