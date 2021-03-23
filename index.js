@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 let http = require('http');
 const dbConnection = require("./helpers/database");
 const controllers = require("./controllers");

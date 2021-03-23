@@ -5,10 +5,10 @@ module.exports = {
     try {
       const connection = mysql.createConnection({
         connectionLimit: 1000,
-        user: "root",
-        password: "secret",
-        database: "registration",
-        port: process.env.PORT
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_NAME,
+        port: process.env.DB_PORT
       })
       connection.query(_query, cb);
     }
